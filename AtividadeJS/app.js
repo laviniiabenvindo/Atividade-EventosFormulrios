@@ -2,7 +2,7 @@ const btnConverter = document.getElementById('btnConverter');
 
 btnConverter.addEventListener('click', () => {
     let inName = document.getElementById('inName');
-    let inTame = document.getElementById('inTime');
+    let inTime = document.getElementById('inTime');
     let outName = document.getElementById('outName');
     let outTime = document.getElementById('outTime');
 

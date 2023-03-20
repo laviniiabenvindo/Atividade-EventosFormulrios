@@ -9,30 +9,34 @@
 </head>
 <body>
     <main>
-        <section>
-            <header>
+        <section> 
+            <header class="titulo">
                 <h1>Vídeo Locadora</h1>
             </header>
 
-            <div class="content">
-                <div class="film">
-                    <label for="inName">Título do filme: </label>
-                    <input type="text" id="inName">
-                </div>
+            <div class="fundo">
+                <div class="content">
+                    <div class="film">
+                        <label for="inName">Título do filme: </label>
+                         <input type="text" id="inName">
+                    </div>
 
-                <div class="duration">
-                    <label for="inTime">Duração do filme: </label>
-                    <input type="number" id="inTime">
-                </div>
+                    <div class="duration">
+                        <label for="inTime">Duração do filme: </label>
+                        <input type="number" id="inTime">
+                    </div>
 
-                <div class="btn">
-                    <button id="btnConverter">Converter Minutos em Horas</button>
+                    <div class="btn">
+                        <button id="btnConverter">Converter em Minutos e Horas</button>
+                    </div>
                 </div>
-            </div>
-
-            <div class="output">
-                <p id="outName"></p>
-                <p id="outTime"></p>
+                <aside class="retorno">
+                    <p>Converção</p>
+                    <article  class="output">
+                        <p id="outName"></p>
+                        <p id="outTime"></p>
+                    </article>
+                </aside>
             </div>
         </section>
     </main>
